@@ -28,7 +28,8 @@ public class GuestDialog extends DialogFragment implements View.OnClickListener 
             startActivity(intent);
         }
         else {
-
+            Intent intent = new Intent(getActivity(),QueryActivity.class);
+            startActivity(intent);
         }
     }
 }
