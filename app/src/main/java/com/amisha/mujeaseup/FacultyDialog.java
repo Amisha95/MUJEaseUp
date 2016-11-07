@@ -10,14 +10,13 @@ import android.widget.Button;
 
 public class FacultyDialog extends DialogFragment implements View.OnClickListener {
 
-    Button performance, leave;
+    Button performance;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.faculty_dialog,null);
         performance = (Button) view.findViewById(R.id.button11);
         performance.setOnClickListener(this);
-        leave = (Button) view.findViewById(R.id.button12);
-        leave.setOnClickListener(this);
+
         return view;
     }
     @Override
