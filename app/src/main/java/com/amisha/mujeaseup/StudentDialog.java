@@ -31,7 +31,8 @@ public class StudentDialog extends DialogFragment implements View.OnClickListene
             startActivity(browserIntent);
         }
         else if(v.getId()==R.id.button7) {
-
+            Intent browserIntent = new Intent(getActivity(), FeedbackActivity.class);
+            startActivity(browserIntent);
         }
         else {
             Intent intent = new Intent(getActivity(),OutpassActivity.class);
