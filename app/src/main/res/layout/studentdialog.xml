@@ -12,9 +12,12 @@
         android:paddingLeft="@dimen/dialog_margin"
         android:paddingRight="@dimen/dialog_margin"
         android:text="AMS"
+        android:background="@color/colorPrimary"
+        android:textStyle="italic"
+
         android:id="@+id/button6"
         android:layout_alignParentTop="true"
-        android:textSize="@dimen/button_size"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -25,7 +28,10 @@
         android:paddingLeft="@dimen/dialog_margin"
         android:layout_marginTop="70dp"
         android:paddingRight="@dimen/dialog_margin"
-        android:textSize="@dimen/button_size"
+        android:background="@color/colorPrimary"
+        android:textStyle="italic"
+
+        android:textSize="20sp"
         android:layout_below="@+id/button6"
         android:layout_centerHorizontal="true" />
 
@@ -35,8 +41,11 @@
         android:paddingLeft="@dimen/dialog_margin"
         android:paddingRight="@dimen/dialog_margin"
         android:text="Outpass"
+        android:background="@color/colorPrimary"
+        android:textStyle="italic"
+
         android:layout_marginTop="70dp"
         android:id="@+id/button8"
-        android:textSize="@dimen/button_size"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true"/>
 </RelativeLayout>

@@ -1,6 +1,7 @@
 package com.amisha.mujeaseup;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
@@ -22,10 +23,8 @@ public class FacultyDialog extends DialogFragment implements View.OnClickListene
     @Override
     public void onClick(View v) {
         if(v.getId()==R.id.button11) {
-
-        }
-        else {
-
+            Intent intent=new Intent(getActivity(),PerformanceActivity.class);
+            startActivity(intent);
         }
     }
 }

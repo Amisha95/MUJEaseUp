@@ -3,9 +3,19 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_outpass">Outpass</string>
-    <string name="aboutText">Manipal University Jaipur provides a unique environment for students to grow under the guidance of experienced academicians and acquire creative, innovative and technological skills, which are required to make the students profession- and industry- ready.  The curriculum is broad-based and students are allowed to register for many open electives from diverse streams.  Education at MUJ is not just about books and classrooms, but also about overall personality development and honing special skills.  A student can achieve and accomplish many goals because of the variety of facilities offered.  Apart from gaining a degree that is recognized all over the world, a student actually graduates with an edge over the others, which is so necessary in today’s competitive world.
+    <string name="aboutText">Manipal University Jaipur provides a unique environment for students to grow under the guidance
+        of experienced academicians and acquire creative, innovative and technological skills,
+        which are required to make the students profession- and industry- ready.
+        The curriculum is broad-based and students are allowed to register for many open electives from diverse streams.
+        Education at MUJ is not just about books and classrooms,
+        but also about overall personality development and honing special skills.
+        A student can achieve and accomplish many goals because of the variety of facilities offered.
+        Apart from gaining a degree that is recognized all over the world,
+        a student actually graduates with an edge over the others, which is so necessary in today’s competitive world.
 
-MUJ students have their hands full, 24x7, with various curricular, co-curricular and extra-curricular activities happening all round the year. The campus is fully wi-fi enabled and boasts of a large, 120 PC Central Computing Facility. The academic process is completely automated, with an Academic Management System in place, which allows students and their parents to access their grades, attendance, etc., from the confines of their homes.  It also renders the evaluation and examination system highly open and transparent.
+</string>
+
+    <string name="aboutText2">MUJ students have their hands full, 24x7, with various curricular, co-curricular and extra-curricular activities happening all round the year. The campus is fully wi-fi enabled and boasts of a large, 120 PC Central Computing Facility. The academic process is completely automated, with an Academic Management System in place, which allows students and their parents to access their grades, attendance, etc., from the confines of their homes.  It also renders the evaluation and examination system highly open and transparent.
 
 The faculty at MUJ is highly qualified and is assisted by an eminent and experienced Adjunct faculty. An Academic Advisory Board, consisting of highly placed academicians and industrialists from the state and centre, is in place, to provide the necessary expertise on all academic matters and for planning for future academic activities.
 

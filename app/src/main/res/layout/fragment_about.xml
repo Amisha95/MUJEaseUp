@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1"/>
+
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/fab_margin"
+        android:paddingLeft="@dimen/fab_margin"
+        android:paddingRight="@dimen/fab_margin"
+        android:textStyle="italic"
+        android:textSize="@dimen/welcome_size"
+        android:textColor="@color/darkblue"
+        android:text="@string/aboutText"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image3"/>
+
+
 
     <TextView
         android:layout_width="match_parent"
@@ -14,10 +42,12 @@
         android:paddingTop="@dimen/fab_margin"
         android:paddingLeft="@dimen/fab_margin"
         android:paddingRight="@dimen/fab_margin"
+        android:textStyle="italic"
         android:textSize="@dimen/welcome_size"
         android:textColor="@color/darkblue"
-        android:text="@string/aboutText"/>
+        android:text="@string/aboutText2"/>
 
-    </ScrollView>
+
 
 </LinearLayout>
+    </ScrollView>

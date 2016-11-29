@@ -12,8 +12,11 @@
         android:paddingLeft="@dimen/dialog_margin"
         android:paddingRight="@dimen/dialog_margin"
         android:text="Performance"
+        android:background="@color/colorPrimary"
+        android:textStyle="italic"
+
         android:id="@+id/button11"
-        android:textSize="@dimen/button_size"
+        android:textSize="20sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
